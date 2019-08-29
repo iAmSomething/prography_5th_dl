@@ -19,9 +19,9 @@ sub-vaildation-annotations-bbox.csv
 >vaildation
 
 ```
-각각의 csv파일은 ImageID	XMin	XMax	YMin	YMax	ClassName 이 5개의 column으로 이루어져 있다
-컬럼의 이름으로 보건데 이 프로젝트에서 데잍터로 활용될 값은   XMin	XMax	YMin	YMax	0부터 1사이의 값이다.
-그래서 예시를 한번 보았다. 아래 표는 sub-test-annotations-bbox.csv중 일부이다.
+각각의 csv파일은 ImageID	XMin	XMax	YMin	YMax	ClassName 이 5개의 column으로 이루어져 있다.  
+컬럼의 이름으로 보건데 이 프로젝트에서 데잍터로 활용될 값은   XMin	XMax	YMin	YMax	0부터 1사이의 값이다.  
+그래서 예시를 한번 보았다. 아래 표는 sub-test-annotations-bbox.csv중 일부이다.  
 
 | ImageID| 	XMin| 	XMax| 	YMin| 	YMax| 	ClassName| 
 | :------| :--: | :---: | :----:| :----:| ----------:| 
@@ -47,10 +47,10 @@ sub-vaildation-annotations-bbox.csv
 |apple_0068.xml	|0.15625|	0.26339285714285700|	0.6696428571428570|	0.7857142857142860|	apple|
 |apple_0068.xml	|0.004464285714285710|	0.12053571428571400	|0.39285714285714300|	0.5535714285714290|	apple|
 
-위의 ImageID를 보면 같은 파일임이 분명한데도 여러개의 다른 데이터들이 있는 것을 발견할 수 있다. 그래서 이미지를 확인해 보았다.
-![apple_img](./img/apple_0068.jpg)
+위의 ImageID를 보면 같은 파일임이 분명한데도 여러개의 다른 데이터들이 있는 것을 발견할 수 있다. 그래서 이미지를 확인해 보았다.  
+![apple_img](./img/apple_0068.jpg)  
 
-이미지를 보면 한 이미지에 여러 개의 사과가 있는 것을 알 수 있다. 따라서 위의 값들은 오브젝트의 위치를 포착하는 상대적 좌표로 유추 해볼 수 있다.
+이미지를 보면 한 이미지에 여러 개의 사과가 있는 것을 알 수 있다. 따라서 위의 값들은 오브젝트의 위치를 포착하는 상대적 좌표로 유추 해볼 수 있다.  
 
 
 
